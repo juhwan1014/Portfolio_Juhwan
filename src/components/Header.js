@@ -23,7 +23,8 @@ class Header extends Component {
              Junior Full Stack Developer<br></br>
              </div>
             
-                    <button><a href={`mailto:$juhwan1014@naver.com`} rel="noopener noreferrer" >Contact</a></button>
+                    <button className='contact_button'><a href={`mailto:$juhwan0718@gmail.com`} rel="noopener noreferrer" >Contact</a></button>
+
                 </p>
             </Fade>
             </div>
