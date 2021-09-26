@@ -100,9 +100,12 @@ margin-right: 50em;
   width: 100%;
   font-family: 'Ubuntu', sans-serif;
   z-index:100;
- 
   margin-top: -25px;
   
+}
+
+.navbar .sticky{
+  background: blue;
 }
 .navbar .max-width{
   display: flex;
@@ -202,8 +205,8 @@ li .link:hover{
 .moon{
   
   margin-top: -40px;
-  font-size: 1.5em;
-  font-family: cursive;
+  font-size: 1.5em; 
+  /* font-family: cursive; */
   font-weight: bolder;
   
 }
@@ -212,6 +215,11 @@ li .link:hover{
   font-size: 20px;
   font-weight: initial;
   line-height: 40px;
+}
+
+.introduce span{
+  color: crimson;
+  font-weight: 500;
 }
 .about{
   display: flex;
