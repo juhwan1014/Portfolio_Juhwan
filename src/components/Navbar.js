@@ -18,14 +18,16 @@ class Navbar extends Component {
         //         }
         //     })
         // });
-
+       
         $(window).scroll(function(){
-            if(this.scrollY > 20){
-             $('.navbar').addClass("sticky");
-          } else {
-             $('.navbar').removeClass("sticky");
-              }
+           
+                    if(this.scrollY > 20){
+                          $('.navbar').addClass("sticky");
+                    } else {
+                        $('.navbar').removeClass("sticky");
+                    }
                 })
+        
       }
   
     render() { 
