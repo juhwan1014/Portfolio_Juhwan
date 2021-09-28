@@ -105,6 +105,8 @@ margin-right: 50em;
 }
 
 .navbar .sticky{
+  z-index:100;
+  margin-top: -25px;
   background: blue;
 }
 .navbar .max-width{
