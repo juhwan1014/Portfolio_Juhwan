@@ -101,6 +101,8 @@ margin-right: 50em;
   font-family: 'Ubuntu', sans-serif;
   z-index:100;
   margin-top: -25px;
+  background: none;
+  height: 140px;
   
 }
 
@@ -108,7 +110,9 @@ margin-right: 50em;
   /* z-index:100; */
   /* margin-top: -25px; */
   height: 140px;
-  background: blue;
+ 
+  background: white;
+  
 }
 .navbar .max-width{
   display: flex;
