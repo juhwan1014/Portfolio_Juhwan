@@ -139,11 +139,28 @@ margin-right: 50em;
   color: black;
 } 
 
+.menu-btn{
+  color: black;
+  font-weight: bolder;
+  opacity: 0.8;
+  font-size: 20px;
+  margin-top: -10px;
+  cursor: pointer;
+  display: none;
+  /* transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; */
+
+}
+
 nav li .link{
   text-decoration: none;
   color: black;
+  font-weight: bolder;
   padding:1em;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -153,6 +170,36 @@ nav li .link{
 li .link:hover{
   opacity: 1;
 } 
+
+@media (max-width : 945px){
+  .max-width{
+    padding:0 80px;
+  }
+  .navbar .logo {
+    display: none;
+  }
+  .navbar{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .navbar li{
+    display: block;
+  }
+  .navbar li a{
+    display: inline-block;
+    /* margin: 20px 0; */
+    font-size: 25px;
+  }
+
+}
+
+
   /* left:55em;
   top:2em;
 z-index: 100; */

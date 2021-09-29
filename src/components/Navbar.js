@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import $ from "jquery";
+import { FaBars } from 'react-icons/fa';
 
 class Navbar extends Component {
     state = {  }
@@ -82,7 +83,7 @@ class Navbar extends Component {
             </ul>
 
             <div className="menu-btn">
-                <i className="fas fa-bars"></i>
+            <h3> <FaBars/> </h3>
             </div>
 
             </div>
