@@ -80,6 +80,11 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
             </ul>
+
+            <div className="menu-btn">
+                <i className="fas fa-bars"></i>
+            </div>
+
             </div>
         </nav> );
     }
