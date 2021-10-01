@@ -20,10 +20,10 @@ class Header extends Component {
             
            <div className='moon'> I'm "Juhwan Moon"</div><br></br>
            <div className='introduce'>
-            who is going to be a skillful developer for your company<br></br>
+            who is going to be a skillful developer<br></br>
              <span>Junior Full Stack Developer</span><br></br>
              </div>
-            
+                
                     <button className='contact_button'><a href={`mailto:$juhwan0718@gmail.com`} rel="noopener noreferrer" >Contact</a></button>
 
                 </p>
