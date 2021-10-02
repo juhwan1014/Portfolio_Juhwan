@@ -25,7 +25,7 @@ class Header extends Component {
              </div>
                 
                     <button className='contact_button'><a href={`mailto:$juhwan0718@gmail.com`} rel="noopener noreferrer" >Contact</a></button>
-
+    
                 </p>
             </Fade>
             </div>
